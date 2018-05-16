@@ -11,7 +11,7 @@ int main()
     scanf("%d", &b);
     float c;
     if (divide(a, b, &c)) {
-        printf("%d / %d = %.2f\n", a, b ,c);
+        printf("%d / %d = %.2f\n", a, b, c);
     }
     return 0;
 }
@@ -19,7 +19,7 @@ int main()
 int divide(int a, int b, float *result)
 {
     int ret = 1;
-    if (b == 0) ret =0;
+    if (b == 0) ret = 0;
     else {
         *result = (float)a / b;
     }
