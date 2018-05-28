@@ -3,3 +3,5 @@ set number
 set expandtab
 %retab!
 set autoindent
+set noignorecase
+set hlsearch
